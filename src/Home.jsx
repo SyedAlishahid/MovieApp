@@ -53,9 +53,8 @@ const MovieGallery = () => {
   };
 
   return (
-    <div className="movie-gallery bg-cover bg-center py-10 px-4 sm:px-6 md:px-8 bg-[#121212]">
+    <div className="movie-gallery bg-cover bg-center py-10 px-4 sm:px-6 md:px-8 bg-[#121212] mt-10">
       <div className="slider mb-6">
-        <h3 className="text-xl text-white">Featured Movies</h3>
         <Slider {...sliderSettings}>
           {movies.slice(0, 5).map(movie => (
             <div key={movie.id} className="slider-item bg-gray-800 rounded-lg">
@@ -87,7 +86,7 @@ const MovieGallery = () => {
       {error && <p className="text-red-500 text-center text-4xl font-bold ">{error}</p>}
       {isLoading && (
         <div className="flex justify-center items-center text-white">
-          <div className="loader bg-white"></div>
+          <div className="loader bg-[#121212]"></div>
         </div>
       )}
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 justify-items-center md:mr-54 lg:mr-36">
