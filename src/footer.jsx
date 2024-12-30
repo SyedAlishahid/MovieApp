@@ -84,13 +84,13 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="mt-10">
+          <div className="mt-10 ml-6">
             <h1 className="font-semibold text-2xl mb-10 text-white">RESOURCE</h1>
             <p className="mt-2 cursor-pointer text-lg font-lg text-white">Career</p>
             <p className="mt-2 cursor-pointer text-lg font-lg text-white">Blog</p>
             <p className="mt-2 cursor-pointer text-lg font-lg text-white">Legal</p>
           </div>
-          <div className="mt-10">
+          <div className="mt-10 ml-6">
             <h1 className="font-semibold text-2xl mb-10 text-white">CONTACT</h1>
             <p className="mt-2 cursor-pointer text-lg font-lg text-white">@gmail.com</p>
             <p className="mt-2 cursor-pointer text-lg font-lg text-white">0327-****91</p>

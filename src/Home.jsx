@@ -53,7 +53,7 @@ const MovieGallery = () => {
   };
 
   return (
-    <div className="movie-gallery bg-cover bg-center py-10 px-4 sm:px-6 md:px-8 bg-[#121212] mt-10">
+    <div className="movie-gallery bg-cover bg-center py-10 px-4 sm:px-6 md:px-8 bg-[#121212] mt-10 lg:mt-12">
       <div className="slider mb-6">
         <Slider {...sliderSettings}>
           {movies.slice(0, 5).map(movie => (
